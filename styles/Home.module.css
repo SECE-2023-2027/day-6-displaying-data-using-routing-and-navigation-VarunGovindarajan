@@ -1,0 +1,25 @@
+.container {
+  padding: 2rem;
+}
+.grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.card {
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  padding: 1rem;
+  background: #fff;
+  transition: box-shadow 0.3s;
+}
+.card:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+.poster {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
